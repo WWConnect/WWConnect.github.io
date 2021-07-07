@@ -6,8 +6,11 @@ url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
+#labname
+labname1: 空间智能通信实验室
+labname2: 智能多媒体实验室
 # Title of the Site
-title: What A Theme
+title: My Test
 # Description of the Site
 description: A customizable Jekyll portfolio theme
 # URL of Image of the Site
