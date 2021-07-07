@@ -1,45 +1,40 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html>
+{% include head.html %}
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
+<body>
+  {% include navbar.html %}
+  {% include showcase.html %}
+  {% include about.html %}
+  {% include contact.html %}
+  <!--Footer begins here-->
+  {% include footer.html %}
+</body>
+<script>
+  window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    var item = document.getElementsByClassName('navbar-item');
+    /* console.log(scroll); */
+    if (scroll < 565) {
+      item[1].classList.add('is-active');
+      item[2].classList.remove('is-active');
+      item[3].classList.remove('is-active');
+    }
+    if (scroll > 565 && scroll < 1130) {
+      item[1].classList.remove('is-active');
+      item[2].classList.add('is-active');
+      item[3].classList.remove('is-active');
+    }
+    if (scroll > 1130) {
+      item[1].classList.remove('is-active');
+      item[2].classList.remove('is-active');
+      item[3].classList.add('is-active');
+    }
+  });
+</script>
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <h1 class="project-name">国家重点实验室</h1>
-      <h2 class="project-tagline">实验室霸气外露名字</h2>
-        <a href="https://wwconnect.github.io/" class="btn">首页</a>
-        <a href="https://wwconnect.github.io/tutor" class="btn">导师介绍</a>
-		<a href="https://wwconnect.github.io/members" class="btn">团队成员</a>
-        <a href="https://wwconnect.github.io/project" class="btn">项目论文</a>
-        <a href="https://wwconnect.github.io/joinus" class="btn">招生说明</a>
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-	  
-      <footer class="site-footer">
-          <span class="site-footer-owner">©2021 Chris Wong. All Rights Reserved.</span>
-      </footer>
-    </main>
-  </body>
 </html>
