@@ -46,7 +46,7 @@ disqus-shortname: thedevslot
 # Name of the Author
 tutor1-name: 孙学宏
 # URL for the Image of the Author
-tutor1-image: /WWConnect.github.io/assets/images/meta.jpg
+tutor1-image: /WWConnect.github.io/assets/images/sun.jpg
 # 60 Words About the Author
 tutor1-about: 孙学宏老师的介绍
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
@@ -55,7 +55,7 @@ tutor1-url: https://xxgc.nxu.edu.cn/info/1013/2229.htm
 # Name of the Author
 tutor2-name: 刘丽萍
 # URL for the Image of the Author
-tutor2-image: /WWConnect.github.io/assets/images/meta.jpg
+tutor2-image: /WWConnect.github.io/assets/images/liu.jpg
 # 60 Words About the Author
 tutor2-about: 刘丽萍老师的介绍
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
