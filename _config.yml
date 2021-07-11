@@ -46,7 +46,7 @@ disqus-shortname: thedevslot
 # Name of the Author
 tutor1-name: 孙学宏
 # URL for the Image of the Author
-tutor1-image: https://github.com/WWConnect/WWConnect.github.io/blob/main/assets/images/sun.jpg
+tutor1-image: https://raw.githubusercontent.com/WWConnect/WWConnect.github.io/main/assets/images/sun.jpg
 # 60 Words About the Author
 tutor1-about: 孙学宏，男，教授，博士，硕士研究生导师。1999年7月毕业于宁夏大学物理电气信息学院通信工程专业；2008年6月获宁夏大学物理电气信息学院电路与系统专业工学硕士学位；2016年7月获北京邮电大学信息与通信工程学院通信与信息系统专业工学博士学位，工作至今。
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
@@ -55,7 +55,7 @@ tutor1-url: https://xxgc.nxu.edu.cn/info/1013/2229.htm
 # Name of the Author
 tutor2-name: 刘丽萍
 # URL for the Image of the Author
-tutor2-image: https://github.com/WWConnect/WWConnect.github.io/blob/main/assets/images/liu.jpg
+tutor2-image: https://raw.githubusercontent.com/WWConnect/WWConnect.github.io/main/assets/images/liu.jpg
 # 60 Words About the Author
 tutor2-about: 刘丽萍，女，教授，硕士，硕士研究生导师。2001年11月获西安交通大学电气工程专业工程硕士学位；1993年7月毕业于宁夏工学院工业电气自动化专业，工作至今。
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
